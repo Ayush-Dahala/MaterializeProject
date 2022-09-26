@@ -1,0 +1,171 @@
+.wholesidebar *{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.wholesidebar{
+    width: 300px;
+    height: 190vh;
+    overflow: auto;
+    flex: 1;
+    background-color: fff;
+    border-right: 1px solid rgba(76, 78, 100, 0.87);
+}
+.topheadersidebar{
+    width: 300px;
+    height: 5rem;
+    position: fixed;
+    position: relative;
+    margin-top: -10px;
+    padding: 0 20px;
+    display: flr;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divleftsidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divleftsidebar img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+.divleftsidebar h3{
+   color: rgba(76, 78, 100, 0.87);
+   font-size: 1.6rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: -10px;
+}
+.leftsidebar{
+   font-size: 1.6rem;
+   color: rgba(76, 78, 100, 0.87);
+}
+.listitemcontenttop{
+    width: 300px;
+    height: 5rem;
+    margin-left: -3px;
+    padding: 0 20px;
+    margin-top: -10px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    color: rgba(76, 78, 100, 0.87);
+}
+.cofine{
+    width: 100%;
+    /* width: 294px; */
+    padding: 0 10px;
+    height: 3rem;
+    background-color: rgba(76, 78, 100, 0.08);
+    border-radius: 5px;
+    /* display: flex; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divleftlist{
+    display: flex;
+    justify-content: start;
+    /* padding: 6px; */
+    align-items: center;
+}
+.icon{
+    margin-right: 10px;
+    font-size: 1rem;
+}
+.cofinelist-all{
+    margin-top: -37px;
+}
+.cofin-list{
+    display: flex;
+    color: rgb(164, 167, 169);
+    font-size: 12px;
+    padding: 0 20px;
+    margin: 20px 0;
+    align-items: center;
+}
+.cofin-list h4{
+    font-size: 1.3rem;
+    color: rgba(76, 78, 100, 0.87);
+    margin-left: 20px;
+    font-weight: 400;
+}
+.active{
+    height: 3rem;
+    margin-left: 17px;
+    width: 90%;
+    padding: 0px;
+    border-radius: 5px;
+    background-color: rgb(120, 126, 255);
+    color: #fff;
+}
+.active h4{
+    color: #fff;
+}
+.listofitem li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color:rgba(76, 78, 100, 0.87) ;
+    font-size: 15px;
+}
+/* ------------------Downlsititem--------------- */
+.listitemdown{
+    width: 300px;
+    height: 5rem;
+    padding: 0 15px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    color: rgba(76, 78, 100, 0.87);
+}
+.cofinedown{
+    width: 100%;
+    padding: 0 5px;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listofitem2 li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color:rgba(76, 78, 100, 0.87) ;
+    font-size: 15px;
+}
+/* ------------------------ */
+.snddownitem {
+    margin-left: -15px;
+    margin-top: 15px;
+}
+.snddownitem2{
+    margin-left: -15px;
+    margin-top: 15px;
+}
+.snddownitem3{
+    margin-left: -15px;
+    margin-top: 15px;
+}
+.cofinedown:hover{
+    cursor: pointer;
+    width: 100%;
+    background:rgba(109, 109, 114, 0.1) ;
+   
+}
+body::-webkit-slider-runnable-track
+{
+    width: 10px;
+}
+body::--webkit-scrollbar-track{
+    border: 1px solid rgba(76, 78, 100, 0.87) ;
+}
+body::--webkit-scrollbar-thumb{
+    background: #005AFE;
+}
+.divleftlist h3{
+    font-weight: 100;
+}

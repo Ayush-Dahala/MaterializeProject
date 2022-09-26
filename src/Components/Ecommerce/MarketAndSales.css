@@ -1,0 +1,88 @@
+
+.Marketcontent{
+    /* width: 33%; */
+    /* margin: 20px 40px; */
+    border: 1px solid rgba(76, 78, 100, 0.28);
+    border-radius: 5px;
+}
+.wrraped{
+    padding: 14.3px 15px;
+}
+.middlemarket{
+   margin-top: 5px;
+   display: flex;
+}
+.imgic{
+   border-radius: 5px;
+}
+.rightmiddlemarket{
+   margin-left: 30px;
+}
+.rightmiddlemarket{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.multigrid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.multibox-root{
+    display: flex;
+}
+.buttonmarket{
+    margin-top: 15px;
+}
+.multibox-root{
+    margin: 5px 0px;
+}
+.righttopheader{
+    font-size: 1rem;
+    letter-spacing: 0.15px;
+    color: rgba(76, 78, 100, 0.87);
+}
+.intmultibox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    user-select: none;
+    color: rgba(76, 78, 100, 0.87);
+    background-color: rgba(109, 120, 141, 0.12);
+    margin-right: 0.375rem;
+    width: 36px;
+    height: 24px;
+    font-size: 0.75rem;
+    border-radius: 6px;
+}
+.multibox-root span{
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.25;
+    letter-spacing: 0.4px;
+    color: rgba(76, 78, 100, 0.68);
+}
+.bt1{
+    margin-right: 9px;
+    width: 5rem;
+    height: 2rem;
+    outline: none;
+    background: transparent;
+    color: rgb(102, 108, 255);
+    border: 1px solid rgb(102, 108, 255);
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+.bte{
+    margin-left: 4px;
+    width: 5rem;
+    height: 2rem;
+    color: #fff;
+    background: rgb(102, 108, 255);
+    border: 1px solid rgb(102, 108, 255);
+    text-transform: uppercase;
+    border-radius: 6px;
+}

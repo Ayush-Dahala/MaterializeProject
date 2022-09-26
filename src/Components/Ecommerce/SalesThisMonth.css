@@ -1,0 +1,32 @@
+.SalesthisMonth{
+    position: relative;
+    margin-top: 10px;
+    border: 1px solid rgba(76, 78, 100, 0.28);
+    height: 14.5rem;
+    padding:0px 10px;
+    border-radius: 5px;
+}
+.SalesthisMonth h3{
+    color:rgba(76, 78, 100, 0.87);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.SalesthisMonth p{
+    font-size: 0.875rem;
+    color:rgba(76, 78, 100, 0.87);
+    font-weight: 400;
+    letter-spacing: 0.15px;
+    line-height: 1.7;
+    margin-top: 10px;
+}
+.SalesthisMonth span{
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    letter-spacing: 0.15px;
+    color:rgba(76, 78, 100, 0.87);
+}
+.SalesthisMonth img{
+    width: 100%;
+    height: 5rem;
+}

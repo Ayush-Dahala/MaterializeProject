@@ -11,12 +11,12 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import UserTable from './UserTable';
 import TotalOrders from './TotalOrders';
-import Topbar from '../React-Dashboard/Topbar/Topbar';
-import SidebarMain from '../React-Dashboard/Sidebar/SidebarMain';
-import Homecontent from '../React-Dashboard/HomeContent/Homecontent';
-import SalesThisMonth from '../React-Dashboard/SalesThisMonth'
-import MarketAndSales from '../React-Dashboard/MarketAndSales'
-import Footer from '../React-Dashboard/Footer'
+import Topbar from './Topbar/Topbar';
+import SidebarMain from './Sidebar/SidebarMain';
+import Homecontent from './HomeContent/Homecontent';
+import SalesThisMonth from './SalesThisMonth'
+import MarketAndSales from './MarketAndSales'
+import Footer from './Footer'
 
 const Table=styled(Grid)(({theme})=>({
   display:'block',
@@ -34,7 +34,7 @@ const Ecommerce = () => {
             <SidebarMain/>
           </Grid>
           <Grid item lg={9} md={8}>
-          <Grid item lg={12} md={6} style={{height:'10vh'}}>
+          <Grid item lg={12} md={6} style={{height:'10vh',position:'sticky',left:0}}>
             <Topbar/>
           </Grid>
           <Grid container spacing={2}>

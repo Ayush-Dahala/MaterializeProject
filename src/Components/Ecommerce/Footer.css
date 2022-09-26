@@ -1,0 +1,35 @@
+
+.footer-content{
+    width: 100%;
+    /* background-color: lawngreen; */
+    float: right;
+    margin-top: 10px;
+}
+.intercontent{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.leftfootercontent{
+    color: rgba(76, 78, 100, 0.87);
+}
+.leftfootercontent a {
+    color:rgb(102, 108, 255, 0.87);
+}
+.rightfootercontent{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.rightfootercontent a{
+    margin-left: 10px;
+    font-size: 1rem;
+    color:rgb(102, 108, 255, 0.87);
+}
+.rightfootercontent a:hover{
+    text-decoration: underline;
+    color:rgb(102, 108, 255, 0.87);
+}

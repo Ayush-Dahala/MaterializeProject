@@ -1,0 +1,90 @@
+
+.homecontent{
+    width: 100%;
+    float: right;
+    /* height: 100vh; */
+}
+.wrraper{
+    border-radius: 9px;
+    padding: 10px;
+    border: 1px solid rgba(76, 78, 100, 0.28)
+}
+.toppartwrraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.5rem;
+}
+.toppartwrraper p{
+    display: block;
+}
+.salesinfo{
+ color: rgba(76, 78, 100, 0.87);
+ position: relative;
+}
+.salesinfo h4{
+  font-size: 1.5rem;
+}
+.salesinfo p{
+    font-size: 1rem;
+    margin-top: 13px;
+    position: relative;
+}
+.salesinfo p span{
+    color: rgb(114, 225, 40);
+} 
+.salesinfo .im{
+    position: absolute;
+    top: -3px;
+    right: -24px;
+}
+.verticalrate{
+    color: rgba(76, 78, 100, 0.87);
+}
+.buttonwrraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+}
+.content1{
+   display: flex;
+}
+.righticon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: rgb(102, 108, 255);
+    background-color: rgba(102, 108, 255, 0.12);
+    margin-right: 12px;
+    border-radius: 5px;
+    margin-top:11px;
+
+}
+.righticony{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: rgb(253, 181, 40);
+    background-color: rgba(253, 181, 40, 0.12);
+    margin-right: 12px;
+    margin-top:11px;
+}
+.righticonb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: rgb(38, 198, 249);
+    background-color: rgba(38, 198, 249, 0.12);
+    margin-right: 12px;
+    margin-top:11px;
+}
+.salesinfo1{
+    color: rgba(76, 78, 100, 0.87);
+}
