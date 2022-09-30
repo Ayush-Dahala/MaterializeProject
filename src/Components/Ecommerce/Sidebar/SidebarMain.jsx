@@ -30,7 +30,7 @@ import MoreHorizOutlinedIcon from '@mui/icons-material/MoreHorizOutlined';
 
 export default function SidebarMain() {
   return (
-    <div className="wholesidebar">
+    <div className="wholesidebar" style={{position:'fixed'}}>
       <div className="topheadersidebar">
         <div className="divleftsidebar">
           <img src={logo} alt="logo" />

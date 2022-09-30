@@ -17,6 +17,9 @@ import Homecontent from './HomeContent/Homecontent';
 import SalesThisMonth from './SalesThisMonth'
 import MarketAndSales from './MarketAndSales'
 import Footer from './Footer'
+import ChartWork from './Chart/ChartWork';
+import Chart2 from './Chart/Chart2'
+import ActivityTimeline from '../ActivityTimeline';
 
 const Table=styled(Grid)(({theme})=>({
   display:'block',
@@ -27,7 +30,7 @@ const Table=styled(Grid)(({theme})=>({
 
 const Ecommerce = () => {
   return (
-    <>
+    <Grid>
         {/* <Grid container direction="row"> */}
           <Grid container >
           <Grid item lg={3} md={4}>
@@ -64,6 +67,16 @@ const Ecommerce = () => {
             <SalesThisMonth/>
           </Grid>
           </Grid>
+
+          <Grid container spacing={2}>
+              <Grid item lg={6}>
+                <ActivityTimeline/>
+              </Grid>
+              <Grid item lg={6}>
+                
+              </Grid>
+          </Grid>
+
           <Grid container spacing={2} style={{marginTop:1}}>
             <Grid item lg={3}>
             <TotalOrders/>
@@ -71,15 +84,18 @@ const Ecommerce = () => {
             <Grid item lg={5}>
             <MarketAndSales/>
             </Grid>
-            <Grid item lg={4}></Grid>
+            <Grid item lg={4}>
+              <Chart2/>
+            </Grid>
             </Grid>
             <Grid container spacing={2} style={{marginTop:2}}>
-            <Table item lg={9} md={12} >
+            <Table item lg={8} md={12} >
               <UserTable/>
             </Table>
-            <Grid item lg={3}>
-
+            <Grid item lg={4}>
+              <ChartWork/>
             </Grid>
+      
             <Grid container spacing={2}>
               <Grid item lg={12}>
                 <Footer/>
@@ -89,18 +105,7 @@ const Ecommerce = () => {
             </Grid>
           </Grid>
           </Grid>
-
-          {/* <Grid container spacing={2}> */}
-          
-          
-          
-          
-          
-          
-          {/* </Grid> */}
-
-        {/* </Grid> */}
-    </>
+    </Grid>
   )
 }
 
