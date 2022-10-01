@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="rightfootercontent">
             <a href="#">Licence</a>
             <a href="#">More Themes</a>
-            <a href="#">Dcumentation</a>
+            <a href="#">Documentation</a>
             <a href="#">Support</a>
           </div>
         </div>

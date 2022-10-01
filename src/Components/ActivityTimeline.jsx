@@ -34,7 +34,7 @@ const LineWrapper=styled.div`
 
 const ActivityTimeline = () => {
   return (
-    <div style={{border:'1px solid',borderRadius:10,borderColor:'rgba(76, 78, 100, 0.28)',}}>
+    <div style={{border:'1px solid',borderRadius:10,borderColor:'rgba(76, 78, 100, 0.28)',paddingBottom:53}}>
         <div style={{display:'flex' ,padding:'0 24px'}}>
             <h2 style={{fontSize:'1.25rem',color:'rgba(76, 78, 100, 0.87)',fontWeight:500}}>Activity Timeline</h2>
             <h1 style={{display:'flex',alignItems:'center',marginLeft:'auto',color:'rgba(76, 78, 100, 0.87)'}}><MoreVertIcon/></h1>

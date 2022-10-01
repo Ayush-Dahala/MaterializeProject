@@ -14,7 +14,7 @@ export default function MarketAndSales() {
               <p style={{lineHeight:0}}>
                 Total 42.5k Sales
                 <span>
-                  +18% <KeyboardArrowUpOutlinedIcon className="im" />
+                  +18% <KeyboardArrowUpOutlinedIcon className="im" style={{top: -12, right: 18}} />
                 </span>
               </p>
             </div>

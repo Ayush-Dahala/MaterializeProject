@@ -5,12 +5,14 @@ import TranslateIcon from "@mui/icons-material/Translate";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import profilepng from "./1.jpg"
+import ScrollBar from "./ScrollBar";
 export default function Topbar() {
   return (
+    <>
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="topleft">
-          <div className="logo">
+          <div className="logo" style={{display:'block'}}>
             <SearchIcon />
             <input
               type="text"
@@ -31,13 +33,18 @@ export default function Topbar() {
             <div className="indiviualIcons">
               <NotificationsIcon />
             </div>
-            <div className="profileImg">
+            <div className="profileImg" style={{display:'flex',flexDirection:'column'}}>
               <img src={profilepng} className="toprightImage" />
-              <span className="onlineshow"></span>
+    
             </div>
           </div>
+           
         </div>
       </div>
     </div>
+     {/* <div>
+     <ScrollBar/>
+     </div> */}
+    </>
   );
 }

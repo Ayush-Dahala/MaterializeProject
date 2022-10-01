@@ -1,8 +1,7 @@
 .SalesthisMonth{
     position: relative;
-    margin-top: 10px;
     border: 1px solid rgba(76, 78, 100, 0.28);
-    height: 14.5rem;
+    height: 15.6rem;
     padding:0px 10px;
     border-radius: 5px;
 }

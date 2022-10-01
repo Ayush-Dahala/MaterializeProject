@@ -1,0 +1,190 @@
+.wrraper-tn{
+    height: 27.4rem;
+    border-radius: 9px;
+    padding: 14px 17px;
+    border: 1px solid rgba(76, 78, 100, 0.87);
+}
+.topheader{
+    display: flex;
+    align-items: center;
+
+}
+.topleftheader{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+.topleftheader .topref{
+    line-height: 1.6;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.eight{
+    font-size: 0.875rem;
+}
+.middletab{
+    overflow: hidden;
+    min-height: 48px;
+    display: flex;
+    /* margin-bottom: 0.625rem; */
+    padding-top:12px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.inn{
+    display: flex;
+}
+.muibuttonbase{
+  margin-right:1rem;
+}
+.iconbase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    background: transparent;
+}
+.iconbase img{
+   width: 4rem;
+   height: 3rem;
+}
+.iconbase .tab-mobile{
+    width: 2rem;
+}
+.muibuttonbase{
+    background: transparent;
+    border-radius: 1rem;
+}
+.addicon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 8px;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgba(76, 78, 100, 0.54);
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgba(109, 120, 141, 0.12);
+}
+.cu{
+    border: 2px solid rgb(102, 108, 255);
+}
+.do{
+    border:2px dashed rgba(76, 78, 100, 0.12)
+}
+
+
+/* -----------------Table container=------------------ */
+.table-container{
+    width: 100%;
+    overflow-x: auto;
+    box-shadow: none;
+    border-top-color: rgba(76, 78, 100, 0.12);
+}
+table{
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: right;
+}
+.topTablerow{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.01071em;
+    display: table-cell;
+    vertical-align: inherit;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    text-align: left;
+    /* padding: 16px; */
+    color: rgba(0, 0, 0, 0.87);
+}
+thead{
+    display: table-header-group;
+    text-transform: uppercase;
+}
+tr{
+    color: inherit;
+    display: table-row;
+    vertical-align: middle;
+    outline: 0px;
+}
+th{
+    padding-left: 1.25rem;
+}
+tbody{
+    display: table-row-group;
+}
+.tbodytd{
+    /* padding-top: 1rem; */
+    padding-bottom: 1rem;
+}
+.inco{
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.25rem;
+    line-height: 1;
+    overflow: hidden;
+    user-select: none;
+    border-radius: 8px;
+    width: 34px;
+    height: 34px;
+}
+
+
+/* ----------------------Table design----------------------- */
+.imgwrraper img{
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+}
+.tableCell1{
+  text-align: right;
+  color: yellow;
+}
+.status {
+    /* padding: 5px; */
+    border-radius: 5px;
+}
+.Out-of-Stock{
+    color: rgb(102, 108, 255);
+    background-color: rgba(102, 108, 255, 0.12);
+}
+.Available{
+    color: rgb(114, 225, 40);
+    background-color: rgba(114, 225, 40, 0.12);
+}
+.Comming-Soon{
+    color: rgb(253, 181, 40);
+    background-color: rgba(253, 181, 40, 0.12);
+}
+.TableBody:nth-child(even) .convertion{
+    margin: 0px;
+    font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 0.875rem;
+    line-height: 1.429;
+    letter-spacing: 0.15px;
+    color: rgb(255, 77, 73);
+    font-weight: 600;
+    text-align: right;
+}
+.TableBody:nth-child(even) .convertion{
+    margin: 0px;
+    font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 0.875rem;
+    line-height: 1.429;
+    letter-spacing: 0.15px;
+    color: rgb(114, 225, 40);
+    font-weight: 600;
+    text-align: right;
+}

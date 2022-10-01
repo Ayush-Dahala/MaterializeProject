@@ -1,0 +1,8 @@
+.scrollBar .navigate li{
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    color:rgba(76, 78, 100, 0.87);
+    padding-left:14px;
+    cursor: pointer;
+}

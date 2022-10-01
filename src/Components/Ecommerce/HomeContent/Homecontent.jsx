@@ -15,7 +15,7 @@ export default function Homecontent() {
             <div className="salesinfo">
               <h4 style={{lineHeight:0,fontWeight:500}}>Sales Overview</h4>
               <p>
-                Total 42.5k Sales <span>+18% <KeyboardArrowUpOutlinedIcon className="im"/></span>
+                Total 42.5k Sales <span>+18% <KeyboardArrowUpOutlinedIcon className="im" style={{right:-22,top:0}}/></span>
                 
               </p>
             </div>

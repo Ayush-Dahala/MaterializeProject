@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    color: rgba(76, 78, 100, 0.87);
+    font-family: Inter,sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cardwrapper-ext{
+    background-color: rgb(255, 255, 255);
+    color: rgba(76, 78, 100, 0.87);
+    border-radius: 10px;
+    border: 1px solid rgba(76, 78, 100, 0.12);
+    /* width: 21%; */
+    height: 35vh;
+    margin: auto;
+}
+.cardwrapper{
+    padding: 1.2rem;
+}
+.lefttoppart{
+    color: rgba(76, 78, 100, 0.87);
+    position: relative;
+}
+.lefttoppart p{
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.429;
+    color: rgba(76, 78, 100, 0.87);
+}
+.lefttoppart h6{
+    font-weight:500;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    letter-spacing: 0.15px;
+}
+.rightpart {
+    right: 1rem;
+    position: absolute;
+    top: 0.7rem;
+    color: rgb(114, 225, 40);
+}
+.rightpart .im{
+    position: absolute;
+    top: -3px;
+    right: -24px;
+}
+.toppart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+.middlepart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.lefttop,.righttop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.righttop{
+    padding-bottom:2px ;
+}
+.lefttop p{
+    margin-left:   10px;
+    font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.429;
+    letter-spacing: 0.15px;
+    color: rgba(76, 78, 100, 0.68);
+}
+.righttop>p{
+    margin-right:   10px;
+    font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.429;
+    letter-spacing: 0.15px;
+    color: rgba(76, 78, 100, 0.68);
+}
+.icon-cont{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.25rem;
+    line-height: 1;
+    user-select: none;
+    color: rgb(253, 181, 40);
+    background-color: rgba(253, 181, 40, 0.12);
+    height: 24px;
+    width: 24px;
+    border-radius: 6px;
+}
+.icon-contb{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.25rem;
+    line-height: 1;
+    user-select: none;
+    color: rgb(102, 108, 255);
+    background-color: rgba(102, 108, 255, 0.12);
+    height: 24px;
+    width: 24px;
+    border-radius: 6px;
+}
+.icon-cont .And,.icon-contb .And{
+    font-size: 1rem;
+}
+
+.leftmiddlepart h6{
+    margin:0.8rem 0 0.5rem 0;
+    font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    letter-spacing: 0.15px;
+    color: rgba(76, 78, 100, 0.87);
+    text-align: start;
+}
+.rightmiddlepart h6{
+    margin:0.8rem 0 0.5rem 0;
+    font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    letter-spacing: 0.15px;
+    color: rgba(76, 78, 100, 0.87);
+    text-align: end;
+}
+.leftmiddlepart span{
+    margin: 0px;
+    font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.25;
+    letter-spacing: 0.4px;
+    color: rgba(76, 78, 100, 0.38);
+}
+.rightmiddlepart span{
+    margin: 0px;
+    font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.25;
+    letter-spacing: 0.4px;
+    color: rgba(76, 78, 100, 0.38);
+    display: block;
+    text-align: end;
+}
+.middlemiddlepart{
+    color:rgba(76, 78, 100, 0.68);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: rgba(109, 120, 141, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middlemiddlepart .vs{
+    font-size: 0.6875rem;
+}
+.middlemiddlepart::after{
+    content: "";
+    width: 1px;
+    height: 30px;
+    position: absolute;
+    top: 1px;
+    text-align: center;
+    background-color: rgba(76, 78, 100, 0.68);
+}
+.middlemiddlepart::before{
+    content: "";
+    width: 1px;
+    height: 30px;
+    position: absolute;
+    bottom: 1px;
+    text-align: center;
+    position: rl;
+    background-color: rgba(76, 78, 100, 0.68);
+}
+
+.yellow{
+    display: block;
+    width: 100%;
+    height: .8rem;
+    border-radius: 10px;
+    background-color:rgb(253, 181, 40);
+    margin-top: 0.5rem;
+    position: relative;
+}
+.blue{
+    width: 70%;
+    height: .8rem;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgb(71, 86, 255);
+    margin-top: 1rem;
+    position: absolute;
+    top: -1em;
+    right: -1px;
+}
