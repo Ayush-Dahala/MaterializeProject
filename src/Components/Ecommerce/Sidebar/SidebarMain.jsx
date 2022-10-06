@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Sidebar.css";
 import logo from "./material-ui.svg";
 import KeyboardDoubleArrowLeftIcon from "@mui/icons-material/KeyboardDoubleArrowLeft";
@@ -27,8 +27,27 @@ import ViewComfyOutlinedIcon from '@mui/icons-material/ViewComfyOutlined';
 import PieChartOutlineOutlinedIcon from '@mui/icons-material/PieChartOutlineOutlined';
 import ShieldOutlinedIcon from '@mui/icons-material/ShieldOutlined';
 import MoreHorizOutlinedIcon from '@mui/icons-material/MoreHorizOutlined';
+import { useNavigate } from "react-router-dom";
 
 export default function SidebarMain() {
+
+  const openInvoice=()=>{
+    open=="none"?setOpen("block"):setOpen("none")
+  }
+
+  const openUser=()=>{
+    user=="none"?setUser("block"):setUser("none")
+  }
+
+  const[open,setOpen]=useState('none')
+  const[user,setUser]=useState('none')
+
+  const navigate=useNavigate();
+
+  const openView=()=>{
+    navigate('/profile')
+  }
+
   return (
     <div className="wholesidebar" style={{position:'fixed'}}>
       <div className="topheadersidebar">
@@ -98,6 +117,9 @@ export default function SidebarMain() {
               </div>
               <h3>Calender</h3>
             </div>
+            <div className="dropdown__menu" >
+             
+            </div>
           </div>
           <div className="cofinedown">
             <div className="divleftlist">
@@ -107,9 +129,19 @@ export default function SidebarMain() {
               <h3>Invoice</h3>
             </div>
             <div className="leftsidebar">
-              <KeyboardArrowRightIcon />
+              <KeyboardArrowRightIcon onClick={openInvoice}/>
             </div>
           </div>
+          <div className="dropdown__menu">
+              <ul style={{display:`${open}`}}>
+                <li style={{fontSize:18,lineHeight:2}}>List</li>
+                <li style={{fontSize:18,lineHeight:2}}>Preview</li>
+                <li style={{fontSize:18,lineHeight:2}}>Edit</li>
+                <li style={{fontSize:18,lineHeight:2}}>Add</li>
+              </ul>
+          </div>
+          
+
           <div className="cofinedown">
             <div className="divleftlist">
               <div className="icon">
@@ -118,8 +150,15 @@ export default function SidebarMain() {
               <h3>User</h3>
             </div>
             <div className="leftsidebar">
-              <KeyboardArrowRightIcon />
+              <KeyboardArrowRightIcon onClick={openUser} />
             </div>
+            
+          </div>
+          <div className="dropdown__menu">
+              <ul style={{display:`${user}`}}>
+                <li style={{fontSize:18,lineHeight:2}}>List</li>
+                <li onClick={openView} style={{fontSize:18,lineHeight:2}}>View</li>
+              </ul>
           </div>
           <div className="cofinedown">
             <div className="divleftlist">

@@ -169,3 +169,16 @@ body::--webkit-scrollbar-thumb{
 .divleftlist h3{
     font-weight: 100;
 }
+
+.dropdown__menu ul li{
+    font-size: 18px;
+    line-height: 2;
+    padding-left: 39px;
+}
+
+.dropdown__menu ul li:hover{
+    background: rgb(120, 126, 255);
+    color: white;
+    border-radius: 9px;
+}
+

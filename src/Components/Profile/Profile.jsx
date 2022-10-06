@@ -2,7 +2,12 @@ import { Grid,styled } from '@mui/material'
 import React from 'react'
 import SidebarMain from '../Ecommerce/Sidebar/SidebarMain'
 import Topbar from '../Ecommerce/Topbar/Topbar'
+import ActivityTimeline from './ActivityTimeline'
 import Details from './Details'
+import InvoiceList from './InvoiceList'
+import ProjectList from './ProjectList'
+import UpdatePlan from './UpdatePlan'
+import Footer from '../Ecommerce/Footer'
 
 const SideBar=styled(Grid)(({theme})=>({
   display:'block',
@@ -21,9 +26,34 @@ const Profile = () => {
       <Grid item lg={12} md={12} sm={12} xs={12} style={{height:'10vh',position:'sticky',left:0}}>
             <Topbar/>
       </Grid>
+      <Grid container spacing={2}>
         <Grid item lg={4}>
             <Details/>
         </Grid>
+        <Grid item lg={8}>
+            <ProjectList/>
+        </Grid>
+      </Grid>
+      <Grid container spacing={2} >
+        <Grid item lg={4} style={{marginTop:20}}>
+            <UpdatePlan/>
+        </Grid>
+        <Grid item lg={8}>
+            <ActivityTimeline/>
+        </Grid>
+      </Grid>
+      <Grid container spacing={2}style={{marginTop:20}} >
+        <Grid item lg={4} >
+        </Grid>
+        <Grid item lg={8}>
+            <InvoiceList/>
+        </Grid>
+      </Grid>
+      <Grid container spacing={2}>
+        <Grid item lg={12}>
+          <Footer/>
+        </Grid>
+      </Grid>
         </Grid>
     </Grid>
   )

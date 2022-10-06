@@ -64,7 +64,7 @@ const Details = () => {
                 <h4 style={{paddingLeft:5,fontSize:'0.875rem',color:'rgba(76, 78, 100, 0.68)',fontWeight:400}}>@shallamb</h4>
             </List>
             <List>
-                <h4 style={{fontSize:'0.875rem',color:'rgba(76, 78, 100, 0.87)',fontWeight:500}}>Billing Email: </h4>
+                <h4 style={{fontSize:'0.875rem',color:'rgba(76, 78, 100, 0.87)',fontWeight:500}}>Email: </h4>
                 <h4 style={{paddingLeft:5,fontSize:'0.875rem',color:'rgba(76, 78, 100, 0.68)',fontWeight:400}}>shallamb@hugedomains.com</h4>
             </List>
             <List>
