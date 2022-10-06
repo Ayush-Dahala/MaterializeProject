@@ -48,6 +48,10 @@ export default function SidebarMain() {
     navigate('/profile')
   }
 
+  const openList=()=>{
+    navigate('/list')
+  }
+
   return (
     <div className="wholesidebar" style={{position:'fixed'}}>
       <div className="topheadersidebar">
@@ -156,7 +160,7 @@ export default function SidebarMain() {
           </div>
           <div className="dropdown__menu">
               <ul style={{display:`${user}`}}>
-                <li style={{fontSize:18,lineHeight:2}}>List</li>
+                <li onClick={openList} style={{fontSize:18,lineHeight:2}}>List</li>
                 <li onClick={openView} style={{fontSize:18,lineHeight:2}}>View</li>
               </ul>
           </div>
