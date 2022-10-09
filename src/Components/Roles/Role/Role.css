@@ -1,0 +1,16 @@
+.mainclasscontainer{
+    margin: 1.5rem auto;
+}
+.top-admis-card {
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+    height: 10rem;
+}
+.GridLayout-Structre{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}

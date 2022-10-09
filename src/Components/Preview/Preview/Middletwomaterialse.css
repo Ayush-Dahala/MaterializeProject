@@ -1,0 +1,39 @@
+.middletwomaterialise{
+    padding: 1.25rem;
+}
+.intenalmiddle{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.internalleft{
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+}
+.internalleft h5,.internalrighttar h5{
+    margin: 0px 0px 0.75rem;
+    font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.57;
+    color: rgba(76, 78, 100, 0.87);
+    letter-spacing: 0.1px;
+}
+.internalleft p,.internalrighttar p{
+    margin-bottom: .3rem;
+    font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.429;
+    letter-spacing: 0.15px;
+    color: rgba(76, 78, 100, 0.68);
+}
+.internalrighttar span{
+    margin-left: 1.2rem;
+}

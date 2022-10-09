@@ -39,8 +39,13 @@ export default function SidebarMain() {
     user=="none"?setUser("block"):setUser("none")
   }
 
+  const hiddenRoles=()=>{
+    roles=="none"?setRoles("block"):setRoles("none")
+  }
+
   const[open,setOpen]=useState('none')
   const[user,setUser]=useState('none')
+  const[roles,setRoles]=useState('none')
 
   const navigate=useNavigate();
 
@@ -50,6 +55,22 @@ export default function SidebarMain() {
 
   const openList=()=>{
     navigate('/list')
+  }
+
+  const openInvoiceList=()=>{
+    navigate('/invoiceList')
+  }
+
+  const openPreview=()=>{
+    navigate('/preview')
+  }
+
+  const openRoles=()=>{
+    navigate('/role')
+  }
+
+  const openPermission=()=>{
+    navigate('/rolesPermission')
   }
 
   return (
@@ -138,10 +159,10 @@ export default function SidebarMain() {
           </div>
           <div className="dropdown__menu">
               <ul style={{display:`${open}`}}>
-                <li style={{fontSize:18,lineHeight:2}}>List</li>
-                <li style={{fontSize:18,lineHeight:2}}>Preview</li>
-                <li style={{fontSize:18,lineHeight:2}}>Edit</li>
-                <li style={{fontSize:18,lineHeight:2}}>Add</li>
+                <li onClick={openInvoiceList} style={{fontSize:18,lineHeight:2}}>List</li>
+                <li onClick={openPreview} style={{fontSize:18,lineHeight:2}}>Preview</li>
+                <li onClick={openPreview} style={{fontSize:18,lineHeight:2}}>Edit</li>
+                <li onClick={openPreview} style={{fontSize:18,lineHeight:2}}>Add</li>
               </ul>
           </div>
           
@@ -183,8 +204,14 @@ export default function SidebarMain() {
               <h3>Role & Permission</h3>
             </div>
             <div className="leftsidebar">
-              <KeyboardArrowRightIcon />
+              <KeyboardArrowRightIcon onClick={hiddenRoles} />
             </div>
+          </div>
+          <div className="dropdown__menu">
+              <ul style={{display:`${roles}`}}>
+                <li onClick={openRoles} style={{fontSize:18,lineHeight:2}}>Roles</li>
+                <li onClick={openPermission} style={{fontSize:18,lineHeight:2}}>Permission</li>
+              </ul>
           </div>
           <div className="cofinedown">
             <div className="divleftlist">

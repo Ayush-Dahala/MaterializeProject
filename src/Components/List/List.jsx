@@ -25,15 +25,15 @@ const List = () => {
             <Topbar/>
       </Grid>
       <Grid container spacing={2} >
-        <Grid item lg={12} >
+        <Grid item lg={12}  md={12} sm={12} xs={12} >
             <SearchFilter/>
         </Grid>
-        <Grid item lg={12} style={{marginTop:10}} >
+        <Grid item lg={12} md={12} sm={12} xs={12} style={{marginTop:10}}  >
             <TableList/>
         </Grid>
-        <Grid item lg={12} >
+        <SideBar item lg={12} >
             <Footer/>
-        </Grid>
+        </SideBar>
         
       </Grid>
       </Grid>
