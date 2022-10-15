@@ -7,6 +7,9 @@ import InvoiceList from "./Components/InvoiceList/List";
 import RolesPermission from "./Components/RolesPermission/RolesPermission";
 import GridContainer from "./Components/Roles/Role/GridContainer";
 import PreviewContainer from "./Components/Preview/Preview/PreviewContainer";
+import CalenderContainer from "./Components/Calender/CalenderContainer";
+import ResponsiveDrawer from "./Components/Chat/ResponsiveDrawer";
+import ChatContainer from "./Components/Chat/ChatContainer";
 
 function App() {
   return (
@@ -20,6 +23,8 @@ function App() {
         <Route path="/rolesPermission" element={<RolesPermission/>}/>
         <Route path="/role" element={<GridContainer/>}/>
         <Route path="/preview" element={<PreviewContainer/>}/>
+        <Route path="/calender" element={<CalenderContainer/>}/>
+        <Route path="/chat" element={<ChatContainer/>}/>
       </Routes>
       
       

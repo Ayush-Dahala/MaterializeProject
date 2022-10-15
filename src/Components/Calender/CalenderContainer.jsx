@@ -3,20 +3,19 @@ import React from 'react'
 import Footer from '../Ecommerce/Footer'
 import SidebarMain from '../Ecommerce/Sidebar/SidebarMain'
 import Topbar from '../Ecommerce/Topbar/Topbar'
-import ExportButton from './ExportButton'
-import SearchFilter from './SearchFilter'
-import TableList from './Table'
+import Calender from './Calender'
 
 const SideBar=styled(Grid)(({theme})=>({
-    display:'block',
-    [theme.breakpoints.down('md')]:{
-      display:'none',
-    }
+  display:'block',
+  [theme.breakpoints.down('md')]:{
+    display:'none',
+  }
 }))
 
-const List = () => {
+const CalenderContainer = () => {
   return (
-    <Grid container>
+    <div>
+      <Grid container>
       <SideBar item lg={3} md={4} sm={0} xs={0}>
             <SidebarMain/>
       </SideBar>
@@ -25,20 +24,17 @@ const List = () => {
             <Topbar/>
       </Grid>
       <Grid container spacing={2} >
-        <Grid item lg={12}  md={12} sm={12} xs={12} >
-            <SearchFilter/>
-        </Grid>
-        <Grid item lg={12} md={12} sm={12} xs={12} style={{marginTop:10}}  >
-            <TableList/>
-        </Grid>
-        <SideBar item lg={12} >
-            <Footer/>
-        </SideBar>
-        
+      <Grid item lg={12} md={12} sm={12} xs={12} >
+        <Calender/>
+      </Grid>
+      <SideBar item lg={12} md={12} sm={12} xs={12} >
+        <Footer/>
+      </SideBar>
       </Grid>
       </Grid>
-    </Grid>
+      </Grid>
+    </div>
   )
 }
 
-export default List
+export default CalenderContainer

@@ -27,7 +27,7 @@ import ViewComfyOutlinedIcon from '@mui/icons-material/ViewComfyOutlined';
 import PieChartOutlineOutlinedIcon from '@mui/icons-material/PieChartOutlineOutlined';
 import ShieldOutlinedIcon from '@mui/icons-material/ShieldOutlined';
 import MoreHorizOutlinedIcon from '@mui/icons-material/MoreHorizOutlined';
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function SidebarMain() {
 
@@ -71,6 +71,14 @@ export default function SidebarMain() {
 
   const openPermission=()=>{
     navigate('/rolesPermission')
+  }
+
+  const calenderOpen=()=>{
+    navigate('/calender')
+  }
+
+  const openChat=()=>{
+    navigate('/chat')
   }
 
   return (
@@ -127,6 +135,7 @@ export default function SidebarMain() {
               <h3>Email</h3>
             </div>
           </div>
+          <Link to='/chat' style={{color:'inherit',textDecoration:'none'}}>
           <div className="cofinedown">
             <div className="divleftlist">
               <div className="icon">
@@ -135,8 +144,9 @@ export default function SidebarMain() {
               <h3>Chat</h3>
             </div>
           </div>
+          </Link>
           <div className="cofinedown">
-            <div className="divleftlist">
+            <div className="divleftlist" onClick={calenderOpen}>
               <div className="icon">
                 <CalendarTodayIcon />
               </div>
