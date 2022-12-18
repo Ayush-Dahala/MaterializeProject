@@ -1,0 +1,58 @@
+[
+  {
+    "user": "Jordan Stevenson",
+    "userName": "@jstevenson5c",
+    "email": "susanna.Lind57@gmail.com",
+    "role": "Admin",
+    "status": "Pending",
+    "plan": "Enterprise"
+  },
+  {
+    "user": "Robert Crawford",
+    "userName": "@rcrawford1d",
+    "email": "estelle.Bailey10@gmail.com",
+    "role": "Editor",
+    "status": "Active",
+    "plan": "Team"
+  },
+  {
+    "user": "Lydia Reese",
+    "userName": "@lreese3b",
+    "email": "milo86@hotmail.com",
+    "role": "Author",
+    "status": "Inactive",
+    "plan": "Enterprise"
+  },
+  {
+    "user": "Richard Sims",
+    "userName": "@rsims6f",
+    "email": "lonnie35@hotmail.com",
+    "role": "Editor",
+    "status": "Pending",
+    "plan": "Enterprise"
+  },
+  {
+    "user": "Lucile Young",
+    "userName": "@lyoung4a",
+    "email": "ahmad_Collins@yahoo.com",
+    "role": "Maintainer",
+    "status": "Active",
+    "plan": "Company"
+  },
+  {
+    "user": "Francis Frank",
+    "userName": "@ffrank7e",
+    "email": "tillman.Gleason68@hotmail.com",
+    "role": "Editor",
+    "status": "Pending",
+    "plan": "Team"
+  },
+  {
+    "user": "Phoebe Patterson",
+    "userName": "@ppatterson2g",
+    "email": "otho21@gmail.com",
+    "role": "Subscriber",
+    "status": "Inactive",
+    "plan": "Company"
+  }
+]

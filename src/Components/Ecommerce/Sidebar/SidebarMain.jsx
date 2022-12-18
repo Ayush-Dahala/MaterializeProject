@@ -81,6 +81,10 @@ export default function SidebarMain() {
     navigate('/chat')
   }
 
+  const openProduct=()=>{
+    navigate('/product')
+  }
+
   return (
     <div className="wholesidebar" style={{position:'fixed'}}>
       <div className="topheadersidebar">
@@ -108,7 +112,7 @@ export default function SidebarMain() {
       <div className="cofinelist-all">
         <div className="cofin-list">
           <CircleIcon style={{ width: 30, height: 10 }} />
-          <h4>CRM</h4>
+          <h4 onClick={openProduct}>Product</h4>
         </div>
         <div className="cofin-list">
           <CircleIcon style={{ width: 30, height: 10 }} />

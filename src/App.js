@@ -8,8 +8,9 @@ import RolesPermission from "./Components/RolesPermission/RolesPermission";
 import GridContainer from "./Components/Roles/Role/GridContainer";
 import PreviewContainer from "./Components/Preview/Preview/PreviewContainer";
 import CalenderContainer from "./Components/Calender/CalenderContainer";
-import ResponsiveDrawer from "./Components/Chat/ResponsiveDrawer";
 import ChatContainer from "./Components/Chat/ChatContainer";
+import Product from "./Components/Product/Product";
+import TemporaryDrawer from "./Components/Product/InputField";
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
         <Route path="/preview" element={<PreviewContainer/>}/>
         <Route path="/calender" element={<CalenderContainer/>}/>
         <Route path="/chat" element={<ChatContainer/>}/>
+        <Route path="/product" element={<Product/>}/>
+        <Route path="/drawer" element={<TemporaryDrawer/>}/>
       </Routes>
       
       
